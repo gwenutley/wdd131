@@ -3,17 +3,6 @@
     margin: 5px;
 }
 
-
-@font-face {
-    font-family: ShirkhandReg;
-    src: url(fonts/Shrikhand-Regular.ttf);
-}
-
-@font-face {
-    font-family: AlkatraReg;
-    src: url(fonts/Alkatra-Regular.ttf);
-}
-
 h1 {
     background-color: black;
     color: white;
