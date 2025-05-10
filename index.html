@@ -1,11 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
+    <title>WDD 131 - Dynamic Web Fundementals - Gwen Utley</title>
+    <meta name="description" content="WDD 131, Dynamic Web Fundementals, Gwen Utley, Home page">
+    <meta name="author" content="Gwen Utley">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
+
 <body>
-    <h1>WDD 131 - Gwen Utley</h1>
+    <header>
+        <h1>WDD 131 - Dynamic Web Fundementals - Gwen Utley</h1>
+        <nav>
+            <a href="www.linkedin.com/in/gwen-utley-8b6636360">Linkdin</a>
+            <a href="https://byupw.instructure.com/">Canvas</a>
+            <a
+                href="https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/32?lang=eng&id=p42#p42">Scripture</a>
+            <a href="placeholder">Final Project</a>
+        </nav>
+    </header>
+    <main>
+        <section class="card" id="aboutme">
+            <h2>About Me</h2>
+            <p>My name is Gwen Utley. I live in Guadalajara Mexico with my husband but am originally from Utah. I served
+                a mission for
+                the Church of Jesus Christ of Latter Day Saints in New York City. I enjoy playing soccer, lifting
+                weights, hiking,
+                painting, and spending time with my family. I am currently studying computer science through BYU
+                Pathways.
+            </p>
+            <img src="images/profile.jpg" alt="Gwen Utley">
+        </section>
+        <section class="card" id="myhome">
+            <h2>My Home</h2>
+            <p>I'm originally from Sandy, Utah but live in Mexico. At it's center is Mexico's second largest city
+                Guadalajara. This city
+                is where mariachi originated and is well known for it's production of tequila. You can also find
+                beautiful beaches to
+                the far west of the state inluding, Puerto Vallarta, home to many tourists.
+            </p>
+            <img src="images/guadalajara.jpg" alt="Jalisco Mexico">
+            <img src="images/mex.jpg" alt="mexico flag">
+        </section>
+    </main>
+    <footer>
+        <p>
+            ©️
+            <span id="currentyear"></span>
+            - Gwen Utley - Mexico
+        </p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
+
 </html>
