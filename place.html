@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place - WDD 131 - Gwen Utley</title>
+    <meta name="description" content="Scaleable page with info about a place ive lived or would want to live">
+    <meta name="author" content="Gwen Utley">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>New York City</h1>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/nyc-large.webp" media="(min-width: 1000px)">
+                <source srcset="images/nyc-medium.webp" media="(min-width: 500px)">
+                <img id="nyc" src="images/nyc-small.webp" alt="New York City image" width="500" height="250">
+            </picture>
+            <section class="data">
+                <h2>Data</h2>
+                <ul class="list">
+                    <li><span class="label">Area</span><span class="value">123,456 sq mi</span></li>
+                    <li><span class="label">Population</span><span class="value">19 million</span></li>
+                    <li><span class="label">Capital</span><span class="value">New York City</span></li>
+                    <li><span class="label">Languages</span><span class="value">English</span></li>
+                    <li><span class="label">Currency</span><span class="value">Dollar</span></li>
+                    <li><span class="label">Time Zone</span><span class="value">UTC-04:00</span></li>
+                    <li><span class="label">Call Code</span><span class="value">+1</span></li>
+                    <li><span class="label">Internet</span><span class="value">.nyc</span></li>
+                </ul>
+            </section>
+            <section class="weather">
+                <h2><span class="title">Weather</span><span class="logo">🌧️</span></h2>
+                <div class="rain-cloud">
+                    <img src="images/rain.svg" alt="responsive weather cloud" class="mobile">
+                </div>
+                <ul class="list">
+                    <li><span class="label">Temperature</span><span class="value" id="temp">51 °F</span></li>
+                    <li><span class="label">Conditions</span><span class="value">Rainy</span></li>
+                    <li><span class="label">Wind</span><span class="value" id="windspeed">6 mph</span></li>
+                    <li><span class="label">Wind Chill</span><span class="value" id="windchill"></span></li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>
+            ©️
+            <span id="currentyear"></span>
+            - Gwen Utley - Mexico
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
