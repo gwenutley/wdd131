@@ -1,0 +1,39 @@
+:root {
+    --zebra: hsl(0, 0%, 93%, 1);
+}
+
+table {
+    margin: 10px auto;
+    border: 1px solid rgb(133, 133, 133); 
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    color: black;
+    font-size: 15px;
+}
+
+tr:first-child th {
+    background-color: black;
+    color: white;
+}
+
+th, td{
+    padding: 7px 15px;
+    border: .5px solid black;
+}
+
+th {
+    background-color: black;
+    color: white;
+    font-size: larger;
+}
+
+td {
+    text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: var(--zebra);
+}

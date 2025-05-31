@@ -14,3 +14,4 @@ currentYear.textContent = new Date().getFullYear();
 /*get last modified and place in footer*/
 let lastModified = new Date(document.lastModified);
 document.getElementById("lastModified").innerHTML = lastModified;
+
