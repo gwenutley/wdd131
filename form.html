@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Form/Prouct Review - Gwen Utley</title>
+    <meta name="description" content="Form Confirmation page">
+    <meta name="author" content="Gwen Utley">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/form-medium.css">
+    <link rel="stylesheet" href="styles/form-large.css">
+    <script src="scripts/form.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Product Review Form</h1>
+    </header>
+    <main>
+        <form method="get" action="review.html" class="review">
+            <fieldset>
+                <label>Product Name*
+                    <select id="product-type" required>
+                        <option value="">Choose a Product...</option>
+                    </select>
+                </label>
+                <label>Overall Rating*</label>
+                <div class="stars">
+                    <label>☆<input type="radio" name="rating" id="one-star" required></label>
+                    <label>☆☆<input type="radio" name="rating" id="two-star" required></label>
+                    <label>☆☆☆<input type="radio" name="rating" id="three-star" required></label>
+                    <label>☆☆☆☆<input type="radio" name="rating" id="four-star" required></label>
+                    <label>☆☆☆☆☆<input type="radio" name="rating" id="five-star" required></label>
+                </div>
+                <label>Date of Installation*<input type="date" name="date" required></label>
+
+                <label>Which features did you find useful? (Check all that apply)</label>
+                <label><input type="checkbox" name="durability" id="feature1" value="yes">Durability</label>
+                <label><input type="checkbox" name="material" id="feature2" value="yes">Material</label>
+                <label><input type="checkbox" name="size" id="feature3" value="yes">Size</label>
+                <label><input type="checkbox" name="design" id="feature4" value="yes">Design</label>
+
+                <label>Written Review (optional)<textarea id="review-box" name="review"></textarea>
+
+                <label>Your Name (optional)<input type="text" name="fullname" id="name"></label>
+
+                <input id="submit" type="submit" value="Post Review">
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>
+            ©️
+            <span id="currentyear"></span>
+            - Gwen Utley - Mexico
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
