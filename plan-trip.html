@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>travel Company</title>
+    <meta name="description" content="Travel company website">
+    <meta name="author" description="Gwen Utley">
+    <link rel="stylesheet" href="styles/travel.css">
+    <script src="scripts/travel.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="navigation">
+            <h1>World Travel Company</h1>
+            <nav>
+                <a href="travel.html">Home</a>
+                <a href="activities.html">Plan Trip</a>
+                <a href="plan-trip.html">My Trips</a>
+            </nav>
+        </div>
+        <img src="images/bans.jpg" alt="world map">
+    </header>
+    <main>
+        <div class="layout">
+            <form method="get" action="my-trips.html" class="trips">
+                <fieldset>
+                    <label>First Name*<input type="text" name="firstname" id="fname" required></label>
+                    <label>Last Name*<input type="text" name="lastname" id="lname" required></label>
+                    <label>Email*<input type="text" name="email" id="email" required></label>
+                    <label>Destination*
+                        <select id="destination"name="destination" required>
+                            <option value="">Choose a Destination...</option>
+                        </select>
+                    </label>
+                    <label>Number of Days<input type="number" name="days" required></label>
+                    
+                    <label for="activities">Select Activity
+                        <select id="activities" name="activities" multiple required>
+                        
+                        </select>
+                    </label>
+                    <label>Questions (optional)<textarea id="questions" name="questions"></textarea>
+            
+                        <input id="submit" type="submit" value="Post Review">
+                </fieldset>
+            </form>
+            <section class="trip-images">
+                <img id="i1" src="images/den.jpg" alt="netherlands">
+                <img id="i2" src="images/guate.jpg" alt="guatemala">
+                <img id="i3" src="images/ire.jpg" alt="ireland">
+                <img id="i4" src="images/jap.jpg" alt="japan">
+                <img id="i5" src="images/waii.jpg" alt="hawaii">
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>
+            ©️
+            <span id="currentyear"></span>
+            - Gwen Utley - Mexico
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+
+</html>
