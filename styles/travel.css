@@ -4,11 +4,13 @@
 header {
     background-color: #490606;
     color:white;
+    font-family: Arial, sans-serif;
 }
 
 header h1 {
     font-size: 50px;
     padding:1rem;
+    font-family: Arial, sans-serif;
 }
 
 /*navigate section*/
@@ -20,26 +22,31 @@ header nav a {
     display: inline-block;
     margin-left: 2em;
     margin-top: 1.5rem;
+    font-family: Arial, sans-serif;
 }
 
 header nav a:hover {
     color: rgb(130, 151, 133);
+    font-family: Arial, sans-serif;
 }
 
 header nav a:active {
     color: rgb(179, 209, 184);
+    font-family: Arial, sans-serif;
 }
 
 .navigation {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    font-family: Arial, sans-serif;
     
 }
 
 header h1 {
     margin: 0;
     font-size: 40px;
+    font-family: Arial, sans-serif;
 }
 
 /*hero background image*/
@@ -55,20 +62,24 @@ header img {
     margin: 0;
     border: none;
     padding: 2rem;
+    font-family: Arial, sans-serif;
 }
 .company-purpose h2 {
     text-align: center;
     font-size: 50px;
+    font-family: Arial, sans-serif;
 }
 
 .company-purpose #statement {
     font-size: 20px;
     margin: 4rem 15rem;
+    font-family: Arial, sans-serif;
 }
 
 .company-purpose p {
     text-align: center;
     font-size: 25px;
+    font-family: Arial, sans-serif;
 }
 
 .company-purpose p a {
@@ -76,6 +87,7 @@ header img {
     text-align: center;
     margin-top: 2rem;
     color: #490606;
+    font-family: Arial, sans-serif;
 }
 
 .company-purpose p a:hover {
@@ -88,6 +100,7 @@ header img {
     gap: 1rem;
     margin-left: 5rem;
     margin-right: 5rem;
+    font-family: Arial, sans-serif;
 }
 
 
@@ -112,6 +125,7 @@ header img {
     background: rgba(0, 0, 0, 0.75);
     padding: 10px;
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
 
 }
 
@@ -176,6 +190,7 @@ header img {
     padding: 5rem 10rem;
     background-color: #c06060;
     margin-top: 4rem;
+    font-family: Arial, sans-serif;
 }
 
 .reviews h2 {
@@ -234,17 +249,20 @@ header img {
 footer {
     background-color: #490606;
     padding: 1em;
+    font-family: Arial, sans-serif;
 }
 
 #lastmodified {
     color: white;
     padding-bottom: 1em;
+    font-family: Arial, sans-serif;
 }
 
 footer p {
     color: white;
     font-size: 20px;
     text-align: center;
+    font-family: Arial, sans-serif;
 }
 
 
@@ -259,6 +277,7 @@ footer p {
     align-items: start;
     border: 2px solid #490606;
     margin: 5rem 20rem;
+    font-family: Arial, sans-serif;
 }
 
 #activity-title {
@@ -267,6 +286,7 @@ footer p {
     background-color: #c06060;
     margin-top: 0;
     padding: 5rem;
+    font-family: Arial, sans-serif;
 }
 .activities img {
     width: 100%;
@@ -282,6 +302,7 @@ footer p {
     display: flex;
     flex-direction: column;
     gap:2rem;
+    font-family: Arial, sans-serif;
 }
 
 .details h2 {
@@ -382,12 +403,7 @@ form.trips input[type="submit"]:hover {
     border-top: 5px solid black;
 }
 
-.layout .form {
-    columns: 1 / 2;
-}
-
 .trip-images {
-    columns: 2 / 3;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(6, 1fr);

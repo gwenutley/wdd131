@@ -1,0 +1,28 @@
+
+/* Header */
+header {
+    background: #490606;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+main {
+    padding: 2rem;
+}
+
+
+.trip-images div {
+    background: #c06060;
+    border: 2px solid white;
+}
+
+
+footer {
+    background: #490606;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
