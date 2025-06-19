@@ -72,7 +72,6 @@ header img {
 
 .company-purpose #statement {
     font-size: 20px;
-    margin: 4rem 15rem;
     font-family: Arial, sans-serif;
 }
 
@@ -449,4 +448,53 @@ form.trips input[type="submit"]:hover {
     width: 300px;
     margin-bottom: 10px;
     border: 7px solid #c06060;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+
+    .company-purpose p {
+        margin: 10px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .featured-trips {
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        margin: 15px 10px;
+        padding: 10px;
+
+    }
+
+    .reviews {
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .trip-images {
+        display: none;
+    }
+
+    .layout {
+        box-sizing: border-box;
+        min-width: 350px;
+        
+    }
+
+    .activities {
+        width: 80%;
+        padding: 2rem;
+        margin: 2rem 2rem;
+
+    }
 }
